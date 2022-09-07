@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-exercise",
+  "version": "1.0.0",
+  "description": "Exercise 2 430",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlp1025/streaming-media-assignment.git"
+  },
+  "author": "Valentin Parafioriti",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vlp1025/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/vlp1025/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
