@@ -12,11 +12,11 @@ const onRequest = (request, response) => {
       break;
 
     case '/party.mp4':
-      mediaHandler.getParty(request,response)
+      mediaHandler.getParty(request, response);
       break;
-      
+
     default:
-      htmlHanlder.getIndex(request, response);
+      htmlHandler.getIndex(request, response);
       break;
   }
 };
